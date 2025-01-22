@@ -36,7 +36,7 @@ function App() {
         <input
           type="number"
           step="0.01"
-          placeholder="Insira a altura em metros"
+          placeholder="Insira a altura"
           onChange={(e) => setAltura(e.target.value)}
         />
         <label> m</label>
@@ -44,7 +44,7 @@ function App() {
         <input
           type="number"
           step="0.1"
-          placeholder="Insira o peso em kg"
+          placeholder="Insira o peso"
           onChange={(e) => setPeso(e.target.value)}
         />
         <label> kg</label>
